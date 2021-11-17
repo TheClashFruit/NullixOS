@@ -1,0 +1,10 @@
+[package]
+name = "NullixOS"
+version = "0.1.0"
+authors = ["TheCLashFruit <clash.fruit123@gmail.com>"]
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
